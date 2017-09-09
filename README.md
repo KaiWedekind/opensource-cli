@@ -4,6 +4,8 @@
 
 #### Template CLI to create an open source library in JavasSript
 
+[![NPM](https://nodei.co/npm/opensource-cli.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/opensource-cli/)
+
 [![Travis](https://img.shields.io/travis/KaiWedekind/opensource-cli.svg)]()
 [![Codecov](https://img.shields.io/codecov/c/github/KaiWedekind/opensource-cli.svg)]()
 [![Issues](https://img.shields.io/github/issues/KaiWedekind/opensource-cli.svg)](https://github.com/KaiWedekind/opensource-cli/issues)
