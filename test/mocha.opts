@@ -1,1 +1,1 @@
-lib/commands/create.test.js
+test/create.test.js

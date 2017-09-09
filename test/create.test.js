@@ -1,8 +1,9 @@
 /* eslint-env mocha */
 const { expect } = require('chai');
 
-describe('opensource-cli', () => {
-  it('should pass the test', () => {
+describe('qualitylab', () => {
+  it('should be an object', () => {
     expect(true).to.equal(true);
   });
 });
+
