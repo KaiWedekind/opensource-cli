@@ -16,7 +16,7 @@
     "test": "cross-env NODE_ENV=test nyc mocha",
     "watch:test": "mocha --watch",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
-    "validate": "npm-run-all --parallel lint test build",
+    "validate": "npm-run-all --parallel lint test",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "env": [
