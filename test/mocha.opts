@@ -1,1 +1,1 @@
-src/index.test.js
+lib/commands/create.test.js
