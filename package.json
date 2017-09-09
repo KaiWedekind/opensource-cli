@@ -2,7 +2,7 @@
   "name": "opensource-cli",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "bin/cmd.js",
   "template": {
     "repository": "https://github.com/KaiWedekind/opensource-template.git"
   },
