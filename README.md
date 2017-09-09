@@ -1,4 +1,8 @@
-# OPENSOURCE-CLI
+![opensource](https://user-images.githubusercontent.com/12070900/30003088-819ad23e-9086-11e7-9267-f45eee511193.png)
+
+# Open Source Library - Template CLI
+
+#### Template CLI to create an open source library in JavasSript
 
 [![Travis](https://img.shields.io/travis/KaiWedekind/opensource-cli.svg)]()
 [![Codecov](https://img.shields.io/codecov/c/github/KaiWedekind/opensource-cli.svg)]()
