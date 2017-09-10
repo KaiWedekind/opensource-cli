@@ -1,7 +1,7 @@
 {
   "name": "opensource-cli",
   "version": "1.1.0",
-  "description": "",
+  "description": "Template CLI to create an open source library in JavasSript",
   "main": "cli.js",
   "template": {
     "repository": "https://github.com/KaiWedekind/opensource-template.git"

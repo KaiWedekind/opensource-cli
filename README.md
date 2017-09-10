@@ -18,27 +18,73 @@
 
 ## The Problem
 
-Describe your problem here.
+You need a template to start a new open source library with JavaScript that uses travis ci for continuous delivery, mocha / chai for testing, webpack as module bundler and semantic-release for release versioning and can be distributed via npm.
 
 ## The Solution
 
-Describe your solution here.
+opensource-cli is a ready to go setup to build your own library in JavaScript.
 
 ## Installation
 
-```
+This module is distributed via [npm](https://www.npmjs.com/) which is bundled with [node](https://nodejs.org/) and should be installed as one of your project's `dependencies`:
+
+```javascript
 npm install -g opensource-cli
 ```
 
 ## Usage
 
-```
+```javascript
 os-temp create "PROJECT NAME" -a "AUTHOR" -e "EMAIL ADDRESS" -r "GIT REPOSITORY"
 ```
 
-## Examples
+## API
 
-Provide examples how to use your project.
+**Show help**
+
+```Text
+os-temp
+```
+
+```Text
+os-temp -h
+```
+
+```Text
+os-temp --help
+```
+
+**Show CLI version**
+
+```javascript
+os-temp --version
+```
+
+**Create new Project**
+
+```Text
+os-temp create [OPTIONS]
+```
+
+```Text
+os-temp new [OPTIONS]
+```
+
+Options:
+- --path "path to your working directory"
+- --cwd "path to your working directory"
+
+- -d "project description"
+- --description "project description"
+
+- -a "project author"
+- --author "project author"
+
+- -e "email address"
+- --email "email address"
+
+- -r "git repository"
+- --repository "git repository"
 
 ## Contributors
 
