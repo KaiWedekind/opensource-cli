@@ -2,13 +2,13 @@
   "name": "opensource-cli",
   "version": "0.0.7",
   "description": "",
-  "main": "bin/cli.js",
+  "main": "cli.js",
   "template": {
     "repository": "https://github.com/KaiWedekind/opensource-template.git"
   },
   "preferGlobal": true,
   "bin": {
-    "os-temp": "bin/cli.js"
+    "os-temp": "cli.js"
   },
   "scripts": {
     "prepush": "npm run validate",
