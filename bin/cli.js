@@ -7,7 +7,7 @@ const colors = require('chalk');
 const shell = require('shelljs');
 
 const yargs = require('yargs');
-const { template } = require('./package.json');
+const { template } = require('../package.json');
 
 const isVoid = (folderDst, project, callback) => {
   fs.stat(folderDst, (err, stats) => {
@@ -34,7 +34,7 @@ yargs.command({
   builder: {},
   handler: (argv) => {
     const { project, description, author, email, repo } = argv;
-    const folderSrc = join(__dirname, './scaffolding/create');
+    const folderSrc = join(__dirname, '../scaffolding/create');
     const folderDst = join(process.cwd(), project);
     const github = 'https://github.com/';
 
