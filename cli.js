@@ -73,15 +73,15 @@ yargs.command({
 
       if (gitURL.indexOf(github) > -1) {
         const badge = gitURL.replace(github, '');
-        shell.sed('-i', 'TRAVIS', `[![Travis](https://img.shields.io/travis/${badge}.svg)]()`, 'README.md');
-        shell.sed('-i', 'CODECOV', `[![Codecov](https://img.shields.io/codecov/c/github/${badge}.svg)]()`, 'README.md');
-        shell.sed('-i', 'ISSUES', `[![Issues](https://img.shields.io/github/issues/${badge}.svg)](${issues})`, 'README.md');
-        shell.sed('-i', 'DOWNLOADS', `[![Github All Releases](https://img.shields.io/github/downloads/${badge}/total.svg)]()`, 'README.md');
-        shell.sed('-i', 'FORKS', `[![Forks](https://img.shields.io/github/forks/${badge}.svg)](${gitURL}/network)`, 'README.md');
-        shell.sed('-i', 'STARS', `[![Stars](https://img.shields.io/github/stars/${badge}.svg)](${gitURL}/stargazers)`, 'README.md');
-        shell.sed('-i', 'LICENSE', `[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/${badge}/master/LICENSE)`, 'README.md');
-        shell.sed('-i', 'PACKAGE', `[![Package](https://img.shields.io/badge/npm-5.0.3-blue.svg)](package)`, 'README.md');
-        shell.sed('-i', 'CODEOFCONDUCT', `[![CodeOfConduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg)]()`, 'README.md');
+        shell.sed('-i', 'TRAVIS_BADGE', `[![Travis](https://img.shields.io/travis/${badge}.svg)]()`, 'README.md');
+        shell.sed('-i', 'CODECOV_BADGE', `[![Codecov](https://img.shields.io/codecov/c/github/${badge}.svg)]()`, 'README.md');
+        shell.sed('-i', 'ISSUES_BADGE', `[![Issues](https://img.shields.io/github/issues/${badge}.svg)](${issues})`, 'README.md');
+        shell.sed('-i', 'DOWNLOADS_BADGE', `[![Github All Releases](https://img.shields.io/github/downloads/${badge}/total.svg)]()`, 'README.md');
+        shell.sed('-i', 'FORKS_BADGE', `[![Forks](https://img.shields.io/github/forks/${badge}.svg)](${gitURL}/network)`, 'README.md');
+        shell.sed('-i', 'STARS_BADGE', `[![Stars](https://img.shields.io/github/stars/${badge}.svg)](${gitURL}/stargazers)`, 'README.md');
+        shell.sed('-i', 'LICENSE_BADGE', `[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/${badge}/master/LICENSE)`, 'README.md');
+        shell.sed('-i', 'PACKAGE_BADGE', `[![Package](https://img.shields.io/badge/npm-5.0.3-blue.svg)](package)`, 'README.md');
+        shell.sed('-i', 'CODEOFCONDUCT_BADGE', `[![CodeOfConduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg)]()`, 'README.md');
       }
 
       shell.cp('-Rf', folderSrc, folderDst);

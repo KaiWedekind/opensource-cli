@@ -26,11 +26,15 @@ Describe your solution here.
 
 ## Installation
 
-Describe how users can install your project.
+```
+npm install -g opensource-cli
+```
 
 ## Usage
 
-Describe how users can use your project.
+```
+os-temp create "PROJECT NAME" -a "AUTHOR" -e "EMAIL ADDRESS" -r "GIT REPOSITORY"
+```
 
 ## Examples
 
@@ -38,11 +42,15 @@ Provide examples how to use your project.
 
 ## Contributors
 
-Add the contributors of your project.
+<table>
+    <tr>
+        <td align="center">
+            <img src="https://avatars0.githubusercontent.com/u/12070900?v=4&s=460" width="100px;"/><br />
+            <sub><a href="https://www.kaiwedekind.com/" target="_blank">Kai Wedekind</a></sub>
+        </td>
+    <tr>
+</table>
 
-## [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/KaiWedekind/opensource-cli/master/LICENSE)
+## LICENSE
 
 MIT
-
-
-
