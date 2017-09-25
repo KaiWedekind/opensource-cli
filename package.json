@@ -60,7 +60,7 @@
     "json-loader": "0.5.7",
     "mocha": "3.5.0",
     "npm-run-all": "4.1.1",
-    "nyc": "11.1.0",
+    "nyc": "11.2.1",
     "rimraf": "2.6.1",
     "semantic-release": "^7.0.2",
     "validate-commit-msg": "2.14.0",
