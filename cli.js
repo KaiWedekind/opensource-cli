@@ -49,7 +49,7 @@ yargs.command({
         shell.exit(1);
       }
 
-      const gitURL = repo.replace('.git', '');
+      const gitURL = (repo) ? repo.replace('.git', '') : '';
       const isString = typeof gitURL === 'string';
 
       const repository = (gitURL && isString) ? `${gitURL}.git` : '';
